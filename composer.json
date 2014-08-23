@@ -1,0 +1,22 @@
+{
+	"name": "y2i/yii2-fenom",
+	"description": "The Fenom integration for the Yii framework",
+	"type": "yii2-extension",
+	"keywords": ["yii2","fenom","renderer"],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Treschelet",
+			"email": "treschelet@gmail.com"
+		}
+	],
+    "require": {
+        "yiisoft/yii2": "*",
+        "fenom/fenom": "2.*"
+    },
+	"autoload": {
+		"psr-4": {
+			"y2i\\fenom\\": ""
+		}
+	}
+}
